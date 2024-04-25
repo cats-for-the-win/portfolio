@@ -1,0 +1,222 @@
+ /* <uniquifier>: Use a unique and descriptive class name */
+ /* // <weight>: Use a value from 400 to 900 */
+
+ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ body {
+     font-family: "Playfair Display", serif;
+     font-size: 1.5rem;
+     background: rgb(255, 255, 255);
+     margin: 0px;
+ }
+
+ a,
+ .btn {
+     color: black;
+     text-decoration-line: none;
+     transition: all 500ms ease;
+ }
+
+ .icon {
+     cursor: pointer;
+     height: 2rem;
+ }
+
+ /* navbar */
+ nav,
+ .nav-links {
+     display: flex;
+ }
+
+ nav {
+     background-color: rgb(172, 171, 173);
+     justify-content: space-between;
+     align-items: center;
+     height: 17vh
+ }
+
+ .nav-links a {
+     margin: 60px;
+ }
+
+ .nav-links a:hover {
+     color: rgb(245, 235, 242);
+ }
+
+ .name-nav {
+     padding: 30px;
+ }
+
+ section {
+     padding-top: 4vh;
+     height: 80vh;
+     box-sizing: border-box;
+     min-height: fit-content;
+ }
+
+
+
+
+ /* SECTION PROFILE */
+
+ .container-profile {
+     padding-top: 10vh;
+     height: 50hvh;
+     align-items: center;
+     justify-content: center;
+     display: grid;
+     grid-template-columns: 400px 400px;
+     grid-template-rows: 1fr 2fr;
+
+ }
+
+ .intro-picture img {
+     width: 300px;
+     height: 300px;
+
+     border-radius: 50%;
+     margin: 20px;
+
+ }
+
+ .intro-picture {
+     display: flex;
+     align-items: center;
+     grid-column: 1;
+     grid-row: span 2;
+     /* Span two rows */
+ }
+
+ .box1 {
+     margin-top: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: end;
+     grid-column: 2;
+     grid-row: 1;
+ }
+
+ .box2 {
+     font-size: 1.4rem;
+     margin: 10px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     grid-column: 2;
+     grid-row: 2;
+ }
+
+ .box2 p {
+     margin: 0px;
+ }
+
+ .redirection {
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     grid-column: 2;
+     grid-row: 3
+ }
+
+ .redirection button:hover {
+     background-color: black;
+     color: white;
+     transition: all 800ms ease;
+ }
+
+ .redirection button {
+     background-color: rgb(255, 255, 255);
+     padding: 0px;
+     border: black 0.1rem solid;
+     font-family: "Playfair Display", serif;
+     font-weight: 2rem;
+     box-shadow: none;
+     width: 8rem;
+     font-size: 1.2rem;
+     border-radius: 2rem;
+     padding: 8px;
+     cursor: pointer;
+ }
+
+
+
+
+
+
+
+ /* SECTION ABOUT */
+ #about {
+     position: relative;
+ }
+
+ .container-overview {
+     box-sizing: border-box;
+     min-height: fit-content;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 3rem;
+     margin-top: 1rem;
+     
+ }
+
+ .section-text-heading h1,
+ p {
+     margin: 0.5rem;
+
+ }
+
+ .section-text-heading {
+     align-items: center;
+     justify-content: right;
+     flex-direction: column;
+     margin: 2rem;
+     margin-bottom:0rem;
+    
+ }
+
+ .container-about {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .container-about-pic {
+     height: 15rem;
+     width: 15rem;
+     margin: 1rem;
+ }
+
+ .container-about-text {
+     align-items: center;
+     justify-content: left;
+     flex-direction: column;
+
+ }
+
+ .container-about-text p,
+ h3 {
+     margin: 0.5rem;
+ }
+
+ .arrow {
+     position: absolute;
+     right: 0rem;
+     bottom: 1rem;
+ }
+
+ /* SECTION CONTACT */
+
+
+ #Contact {
+     background-color: rgb(172, 171, 173);
+ }
+
+ .Mail {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 200px;
+ }
