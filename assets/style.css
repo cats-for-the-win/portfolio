@@ -8,6 +8,7 @@
      font-size: 1.5rem;
      background: rgb(255, 255, 255);
      margin: 0px;
+
  }
 
  a,
@@ -71,8 +72,8 @@
  }
 
  .intro-picture img {
-     width: 300px;
-     height: 300px;
+     width: 20rem;
+     height: 21rem;
 
      border-radius: 50%;
      margin: 20px;
@@ -142,8 +143,6 @@
 
 
 
-
-
  /* SECTION ABOUT */
  #about {
      position: relative;
@@ -206,11 +205,41 @@
      bottom: 1rem;
  }
 
+
+
+/* SECTION SKILLS */
+#Skills {
+    position: relative;
+}
+.skills-container-overview{
+    
+    box-sizing: border-box;
+     min-height: fit-content;
+     margin: 3rem;
+     margin-top: 1rem;
+    
+     
+}
+.skills-containers{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr;
+    gap:2rem;
+    border:2px black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap:2rem;
+}
+
+
+
  /* SECTION CONTACT */
 
-
  #Contact {
-     background-color: rgb(172, 171, 173);
+     background-color: rgb(255, 255, 255);
  }
 
  .Mail {
