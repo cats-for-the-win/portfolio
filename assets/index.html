@@ -11,16 +11,18 @@
     <title>Portfolio</title>
 </head>
 
-<body>
+<body background="background.png">
+    <div id='myProgressBar'></div>
     <nav id="desktop-nav">
         <div class="name-nav">
             <h1>Vanya Kataria</h1>
         </div>
         <div>
             <ul class="nav-links" style="list-style: none;">
-                <li> <a href="./#about"> About </a></li>
-                <li> <a href="./#projects"> Projects </a></li>
-                <li> <a href="./#contact"> Contact me</a></li>
+                <li> <a href="./#About"> About </a></li>
+                <li> <a href="./#Skills"> Projects </a></li>
+                <li> <a href="./#Contact"> Contact me</a></li>
+                <li> <a class="button" onclick="myFunction()"><img class="moon" src="moon-svgrepo-com (2).svg"></a></li>
             </ul>
 
         </div>
@@ -61,7 +63,9 @@
                     <h3>Education</h3>
                     <p class="about-education">Btech, Computer Science (second year) </p>
                     <p>I am passionate about HTML, CSS, and JavaScript.
-                    One of my strong suites include DSA with C++. <br>At an intermediate level, I am good at ML with Python, and MySQL Database management.<br> It may be unrelated but I am also knowledgeable about music theory.</p>
+                        One of my strong suites include DSA with C++. <br>At an intermediate level, I am good at ML with
+                        Python, and MySQL Database management.<br> It may be unrelated but I am also knowledgeable about
+                        music theory.</p>
 
 
 
@@ -75,8 +79,9 @@
     <section id="Skills">
         <div class="skills-container-overview">
             <div class="section-text-heading">
-            <p>Here are my</p>
-            <h1>Skills</h1></div>
+                <p>Here are my</p>
+                <h1>Skills</h1>
+            </div>
             <div class="skills-containers">
                 <div class="skills-container-1 box">
                     <div class="front-end-box">
@@ -152,6 +157,7 @@
 
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="index.js"></script>
 </body>
 

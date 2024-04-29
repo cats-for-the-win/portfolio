@@ -11,8 +11,7 @@
 
  }
 
- a,
- .btn {
+ a{
      color: black;
      text-decoration-line: none;
      transition: all 500ms ease;
@@ -30,7 +29,7 @@
  }
 
  nav {
-     background-color: rgb(172, 171, 173);
+     background-color: rgb(206, 189, 200);
      justify-content: space-between;
      align-items: center;
      height: 17vh
@@ -55,8 +54,18 @@
      min-height: fit-content;
  }
 
-
-
+.moon{
+    height:2rem;
+    width:2rem;
+    color: #222;
+}
+.moon:hover{
+    cursor: pointer;
+}
+ .dark {
+     background-color: #222;
+     color: #e6e6e6;
+ }
 
  /* SECTION PROFILE */
 
@@ -156,7 +165,7 @@
      flex-direction: column;
      margin: 3rem;
      margin-top: 1rem;
-     
+
  }
 
  .section-text-heading h1,
@@ -170,8 +179,8 @@
      justify-content: right;
      flex-direction: column;
      margin: 2rem;
-     margin-bottom:0rem;
-    
+     margin-bottom: 0rem;
+
  }
 
  .container-about {
@@ -207,39 +216,44 @@
 
 
 
-/* SECTION SKILLS */
-#Skills {
-    position: relative;
-}
-.skills-container-overview{
-    
-    box-sizing: border-box;
+ /* SECTION SKILLS */
+ #Skills {
+     position: relative;
+ }
+
+ .skills-container-overview {
+
+     box-sizing: border-box;
      min-height: fit-content;
      margin: 3rem;
      margin-top: 1rem;
-    
-     
-}
-.skills-containers{
-    display:grid;
-    grid-template-columns: 2fr 2fr;
-    grid-template-rows: 2fr 2fr;
-    gap:2rem;
-    border:2px black;
-}
-.box{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    gap:2rem;
-}
+
+
+ }
+
+ .skills-containers {
+     display: grid;
+     grid-template-columns: 2fr 2fr;
+     grid-template-rows: 2fr 2fr;
+     gap: 2rem;
+     border: 2px black;
+ }
+
+ .box {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     gap: 2rem;
+     border-radius: 2rem;
+     border: 1px solid black;
+ }
 
 
 
  /* SECTION CONTACT */
 
  #Contact {
-     background-color: rgb(255, 255, 255);
+     position: relative;
  }
 
  .Mail {
